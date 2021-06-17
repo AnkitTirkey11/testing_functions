@@ -26,6 +26,8 @@ def test_multiplication():
     #if multiplication(4,4) == 16:
     #    print(True)
 
+def test_mult():
+    assert multiplication(3,3) == 9,"Test Failed"
 #test_add()
 #test_subtract()
 #test_sub()
