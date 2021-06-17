@@ -9,7 +9,7 @@ def multiplication(a,b):
 
 
 def test_add():
-    print(-1)
+    print(-2)
     #assert add(1,2) == 3,"Test Failed"
     #if (add(1,2) == 3):
     #    print(True)
