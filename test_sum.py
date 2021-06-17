@@ -7,7 +7,7 @@ def multiplication(a,b):
     return a*b
 
 def test_add():
-    assert add(1,2) == 3,"Test Failedd"
+    assert add(1,2) == 3,"Test Failed"
     #if (add(1,2) == 3):
     #    print(True)
 
