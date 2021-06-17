@@ -6,6 +6,8 @@ def subtract(a,b):
 def multiplication(a,b):
     return a*b
 
+
+
 def test_add():
     print(-1)
     #assert add(1,2) == 3,"Test Failed"
@@ -26,7 +28,7 @@ def test_sub():
 
 def test_multiplication():
     print(2)
-    #assert multiplication(4,4) == 16,"Test Fail"
+    #assert multiplication(4,4) == 12,"Test Fail"
     #if multiplication(4,4) == 16:
     #    print(True)
 
