@@ -7,16 +7,20 @@ def multiplication(a,b):
     return a*b
 
 def test_add():
-    assert add(1,2) == 3,"test Fail"
+    if (add(1,2) == 3):
+        print(True)
 
 def test_subtract():
-    assert subtract(3,2) == 1,"Test Fail"
+    if subtract(3,2) == 1:
+        print(True)
 
 def test_sub():
-    assert subtract(4,2) == 2,"Test Fail"
+    if subtract(4,2) == 2:
+        print(True)
 
 def test_multiplication():
-    assert multiplication(3,2) == 6,"Test Failed"
+    if multiplication(3,2) == 6:
+        print(True)
 
 test_add()
 test_subtract()
