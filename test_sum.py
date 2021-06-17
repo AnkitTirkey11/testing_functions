@@ -19,7 +19,7 @@ def test_sub():
         print(True)
 
 def test_multiplication():
-    if multiplication(3,4) == 12:
+    if multiplication(4,4) == 16:
         print(True)
 
 test_add()
