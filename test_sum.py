@@ -28,6 +28,7 @@ def test_multiplication():
 
 def test_mult():
     assert multiplication(3,3) == 9,"Test Failed"
+    assert multiplication(3, 5) == 15, "Test Failed"
 #test_add()
 #test_subtract()
 #test_sub()
