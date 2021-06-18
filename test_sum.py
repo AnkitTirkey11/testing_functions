@@ -1,3 +1,4 @@
+
 def add(a,b):
     return a+b
 def subtract(a,b):
@@ -34,7 +35,7 @@ def test_multiplication():
 
 def test_mult():
     #print(3)
-    assert multiplication(3,3) == 9,"Test Failed"
+    assert multiplication(3,9) == 9,"Test Failed"
     #assert multiplication(3, 5) == 15, "Test Failed"
 #test_add()
 #test_subtract()
