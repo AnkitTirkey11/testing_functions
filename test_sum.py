@@ -29,13 +29,13 @@ def test_sub():
 
 def test_multiplication():
     #print(2)
-    assert multiplication(4,4) == 12,"Test Fail"
+    assert multiplication(4,4) == 16,"Test Fail"
     #if multiplication(4,4) == 16:
     #    print(True)
 
 def test_mult():
     #print(3)
-    assert multiplication(3,9) == 9,"Test Failed"
+    assert multiplication(3,9) == 27,"Test Failed"
     #assert multiplication(3, 5) == 15, "Test Failed"
 #test_add()
 #test_subtract()
